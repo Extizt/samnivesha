@@ -1,0 +1,169 @@
+body {
+  background-image: url(/images/bg-reg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 450%;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px grey;
+  margin-top: 12%;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-right: 7%;
+  padding-bottom: 0;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 1);
+  margin-bottom: 3%;
+}
+
+.nav-bar.scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important; /*#323232*/
+  transition: background-color 200ms linear;
+}
+
+.nav-item {
+  padding: 0;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom: 3px solid #fdb827;
+}
+
+form {
+  margin: 60px 0;
+  background: #efefef;
+  padding: 60px;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-ht {
+  height: 590px;
+}
+
+form h1 {
+  color: #4d4d4d;
+  font-size: 2rem;
+}
+
+form li {
+  margin: 3%;
+  color: #808080;
+}
+
+label {
+  display: block;
+  position: relative;
+  margin: 40px 0px;
+}
+.label-txt {
+  position: absolute;
+  top: -1.6em;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  color: rgb(120, 120, 120);
+  transition: ease 0.3s;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.line-box {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: #bcbcbc;
+}
+
+.line {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #525252;
+  transition: ease 0.6s;
+}
+
+.input:focus + .line-box .line {
+  width: 100%;
+}
+
+.label-active {
+  top: -3em;
+}
+
+button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: rgb(220, 220, 220);
+  font-weight: bold;
+  color: rgb(120, 120, 120);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+button:hover {
+  background: #525252;
+  color: #ffffff;
+}
+.tshirt {
+  width: 100%;
+  margin: 10% 0 3%;
+}
+
+#footer {
+  padding-top: 7%;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #676768;
+}
+
+.fottercon {
+  color: #676768;
+  padding: 1%;
+}
+
+.fottercon:hover {
+  color: #f8fedf;
+}
+
+@media (max-width: 990px) {
+  .nav-box {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .navbar-brand {
+    font-size: 1.7rem;
+  }
+}

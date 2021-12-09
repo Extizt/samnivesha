@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Samnivesha is the annual Technical fest of the Department of Civil and Environmental Engineering (DCEE) at IIT Patna.">
+  <meta name="author" content="Samnivesha '20">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Samnivesha 2021 | The Annual Fest of Civil Engineering | IIT Patna | WORKSHOPS</title>
+
+
+  <!-- bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles2.css">
+
+  <!-- google fonts -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- font awesome kit -->
+
+  <script src="https://kit.fontawesome.com/edb4e8128d.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap default javascript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <%- include("navbar") -%>
+
+  <!-- EVENTS SECTION -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <section class="team">
+    <div class="container">
+      <!-- WORKSHOP SECTION -->
+      <div class="row">
+        <div class="col-md-offset-1">
+          <div class="col-lg-12">
+            <h2 class="head">WORKSHOPS</h2>
+            <div class="row justify-content-md-center pt-md">
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 profile">
+                <div class="img-box">
+                  <img src="images/matlab.jpg" class="img-responsive pic">
+                  <ul class="text-center">
+                    <a href="#matlabWp">
+                      <li>About</li>
+                    </a>
+                  </ul>
+                </div>
+                <h1>MATLAB</h1>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 profile">
+                <div class="img-box">
+                  <img src="images/etabs.jpg" class="img-responsive pic">
+                  <ul class="text-center">
+                    <a href="#etabsWp">
+                      <li>About</li>
+                    </a></ul>
+                </div>
+                <h1>ETABS</h1>
+              </div>
+            </div>
+            <p style="color: red;font-weight: bold;text-align: center;">Attend both the workshops just @ ₹400/- <br> No clashes in timings!!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL WINDOW FOR WORKSHOP -->
+    <div id="matlabWp" class="modal-window">
+        <div>
+          <a href="#" title="Close" class="modal-close">Close</a>
+          <h1>MATLAB WORKSHOP!</h1>
+          <div class="popup-content">MATLAB is a programming platform designed specifically for engineers and scientists. MATLAB can be used to analyse data, develop algorithms, simulation and prototyping. <br>
+            Samnivesha’21 presents an opportunity for you to learn the role of ‘MATLAB and Simulink Workflows’. With this workshop, you will learn the engineering application of MATLAB to make your life easier!</div>
+          <p class="tags">Installation Guide will be provided to all the participants after successful registration.</p>
+          <p class="tags">Registration Charges: ₹250/-</p>
+          <div style="text-align:center;"><button type="button" name="button"><a class="tags" target="_blank" href="https://forms.gle/4eCfzwUJx4D8D3VC8">Register</a></button></div>         
+        </div>
+      </div>
+      <div id="etabsWp" class="modal-window">
+        <div>
+          <a href="#" title="Close" class="modal-close">Close</a>
+          <h1>ETABS WORKSHOP!</h1>
+          <div class="popup-content">ETABS is an engineering software product that caters to multi-story building analysis and design. With a user friendly interface, it is widely used in industries for the analysis of the RC/Steel Structures.<br>
+            Samnivesha’21 presents an opportunity for you to learn the application of ETABS in Analysing Building and its components. With this workshop, you will learn how to incorporate the strategies of Building Analysis for the design purpose.
+          </div>
+          <p class="tags">Installation Guide will be provided to all the participants after successful registration.</p>
+          <p class="tags">Registration Charges: ₹250/-</p>
+          <div style="text-align:center;"><button type="button" name="button"><a class="tags" target="_blank" href="https://forms.gle/4eCfzwUJx4D8D3VC8">Register</a></button></div>         
+        </div>
+      </div>
+  </section>
+  <!-- FOOTER -->
+  <%- include("footer") -%>

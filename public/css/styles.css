@@ -1,0 +1,214 @@
+body {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+
+  font-weight: 300;
+  line-height: 1.5;
+  color: #656669;
+  background-color: #fff;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Zoom Pro Normal", sans-serif;
+  font-weight: 780;
+  line-height: 1.2;
+  color: #141e23;
+}
+
+.home-background {
+  z-index: -1;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.nav-button {
+  border: none;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-right: 7%;
+  padding-bottom: 0;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-bar.scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important; /*#323232*/
+  transition: background-color 200ms linear;
+}
+
+.nav-item {
+  padding: 0;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom: 3px solid #fdb827;
+}
+
+/* logo */
+
+.logo {
+  position: absolute;
+  z-index: 1;
+  margin: 9%;
+}
+
+.logo img {
+  width: 70%;
+}
+
+/* carousel background */
+.carousel-arrow {
+  width: 100px;
+}
+
+.back-img {
+  width: 100%;
+}
+
+/* About Samnivesha AND our Vision */
+marquee {
+  color: red;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+.content {
+  padding: 2rem 0.937rem 4rem;
+  margin: 0 10rem;
+  text-align: justify;
+}
+
+.content-div {
+  padding: 2rem 2rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 2.278rem;
+  text-align: center;
+}
+
+.fade {
+  opacity: 1;
+}
+
+.fade-img {
+  opacity: 1;
+}
+
+.full-width-image {
+  width: 100%;
+}
+
+.home-back {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.content-sec {
+  text-align: left;
+  padding: 5% 18%;
+}
+
+.row-content {
+  padding: 4% 5%;
+}
+
+.row-image {
+  padding: 4% 5%;
+  margin: 3% 0 0 0;
+}
+
+.lower-carousel {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* footer */
+
+#footer {
+  padding-top: 4%;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #676768;
+}
+
+.fottercon {
+  color: #676768;
+  padding: 1%;
+}
+
+.fottercon:hover {
+  color: #222831;
+}
+
+.about-img {
+  float: left;
+  width: 50%;
+  margin: 6% 10% 3% 1%;
+}
+
+.about-content {
+  text-align: left;
+}
+
+.matter {
+  padding: 5% 18%;
+}
+
+/* title */
+@media (max-width: 767.98px) {
+  .logo img {
+    width: 80%;
+  }
+  .logo {
+    margin: 12%;
+  }
+  .content {
+    max-width: 700px;
+  }
+  .lower-carousel {
+    width: 90%;
+  }
+}
+
+@media (max-width: 990px) {
+  .carousel-arrow {
+    width: 30px;
+  }
+  .nav-box {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .navbar-brand {
+    font-size: 1.7rem;
+  }
+  .content {
+    padding: 1rem 0.937rem;
+    margin: 0 2rem;
+    text-align: justify;
+  }
+  .lower-carousel {
+    width: 70%;
+  }
+}
